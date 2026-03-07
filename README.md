@@ -1,6 +1,6 @@
 # Claude SDK
 
-Python tutorial for the <a href="https://anthropic.skilljar.com/claude-with-the-anthropic-api" target="_blank" rel="noopener noreferrer">Anthropic API</a>.
+Python tutorial for the [Anthropic API](https://anthropic.skilljar.com/claude-with-the-anthropic-api).
 
 ## Setup
 
