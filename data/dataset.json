@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create an IAM policy that allows read-only access to S3 buckets with names starting with 'backup-' and denies all other S3 actions",
+    "format": "json",
+    "solution_criteria": "Must be valid IAM policy JSON with correct Allow effect for s3:GetObject on backup-* resources, and explicit Deny for other S3 actions. Should include proper Resource ARN format and Principal if needed."
+  },
+  {
+    "task": "Write a Python function that parses an AWS CloudWatch log event and extracts the timestamp, log level, and message from a standard application log format",
+    "format": "python",
+    "solution_criteria": "Function should accept a log event string, return a dictionary with 'timestamp', 'level', and 'message' keys, handle common log formats, and include basic error handling for malformed logs."
+  },
+  {
+    "task": "Create a regex pattern that validates AWS S3 bucket names according to AWS naming rules",
+    "format": "regex",
+    "solution_criteria": "Must match bucket names that are 3-63 characters long, contain only lowercase letters, numbers, dots, and hyphens, don't start/end with dots or hyphens, and don't contain consecutive dots or dot-hyphen combinations."
+  }
+]
